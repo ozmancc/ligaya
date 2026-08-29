@@ -100,23 +100,13 @@
 </head>
 <body class="font-sans text-gray-700 antialiased bg-gray-50">
 
-    <!-- SOL ALT SABİT TELEFON VE WHATSAPP BUTONLARI -->
-    <div class="fixed bottom-6 left-6 z-50 flex flex-col gap-3">
+    <!-- SAĞ ALT SABİT TELEFON VE WHATSAPP BUTONLARI -->
+    <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
         <a href="tel:+905308244301" class="bg-brand text-white w-12 h-12 rounded-full shadow-2xl flex items-center justify-center text-xl hover:bg-brand-dark transition-all transform hover:scale-110" title="Hemen Ara">
             <i class="fas fa-phone-alt"></i>
         </a>
         <a href="https://wa.me/905308244301?text=Merhaba,%20bilgi%20almak%20istiyorum." target="_blank" class="bg-whatsapp text-white w-12 h-12 rounded-full shadow-2xl flex items-center justify-center text-2xl hover:bg-whatsapp-dark transition-all transform hover:scale-110" title="WhatsApp ile Yazın">
             <i class="fab fa-whatsapp"></i>
-        </a>
-    </div>
-
-    <!-- SAĞ ALT SABİT BAŞA DÖN VE AŞAĞI OK BUTONLARI -->
-    <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
-        <a href="#kamera-sistemleri" class="bg-gray-800 text-white w-11 h-11 rounded-full shadow-2xl flex items-center justify-center hover:bg-brand transition-all transform hover:scale-110" title="Aşağı İlerle">
-            <i class="fas fa-arrow-down text-sm"></i>
-        </a>
-        <a href="#" class="bg-brand text-white w-11 h-11 rounded-full shadow-2xl flex items-center justify-center hover:bg-brand-dark transition-all transform hover:scale-110" title="Başa Dön">
-            <i class="fas fa-arrow-up text-sm"></i>
         </a>
     </div>
 
@@ -129,21 +119,12 @@
                     <img src="ligaya-logo.png" alt="Ligaya Teknoloji ve Tic. Ltd. Şti. Logo" class="h-14 w-auto object-contain" onerror="this.src='https://placehold.co/200x64/FFF/00807B?text=Ligaya+Teknoloji'">
                 </div>
                 
-                <!-- Masaüstü Menü (İstediğin Sıralama: Kamera Sistemleri, Tüm Çözümler, İletişim) -->
+                <!-- Masaüstü Menü (Kamera Sistemleri, Tüm Çözümler, İletişim, Hakkımızda) -->
                 <div class="hidden md:flex items-center space-x-6">
                     <a href="#kamera-sistemleri" class="text-brand hover:text-brand-dark font-extrabold transition-colors flex items-center gap-1.5"><i class="fas fa-video text-sm"></i> Kamera Sistemleri</a>
                     <a href="#cozumlerimiz" class="text-gray-700 hover:text-brand font-semibold transition-colors">Tüm Çözümler</a>
                     <a href="#iletisim" class="text-gray-700 hover:text-brand font-semibold transition-colors">İletişim</a>
                     <a href="#hakkimizda" class="text-gray-700 hover:text-brand font-semibold transition-colors">Hakkımızda</a>
-                    
-                    <div class="flex items-center gap-2">
-                        <a href="tel:+905308244301" class="bg-brand hover:bg-brand-dark text-white px-4 py-2.5 rounded-lg font-bold transition-all shadow-md flex items-center gap-2 text-sm">
-                            <i class="fas fa-phone-alt"></i> 0530 824 43 01
-                        </a>
-                        <a href="https://wa.me/905308244301?text=Merhaba,%20bilgi%20almak%20istiyorum." target="_blank" class="bg-whatsapp hover:bg-whatsapp-dark text-white px-4 py-2.5 rounded-lg font-bold transition-all shadow-md flex items-center gap-2 text-sm">
-                            <i class="fab fa-whatsapp text-lg"></i> WhatsApp
-                        </a>
-                    </div>
                 </div>
 
                 <!-- Mobil Menü Butonu -->
@@ -160,16 +141,8 @@
             <div class="px-4 pt-2 pb-6 space-y-2">
                 <a href="#kamera-sistemleri" class="mobile-link block px-4 py-3 text-brand font-bold hover:bg-brand/10 rounded-lg bg-brand/5">Kamera Sistemleri</a>
                 <a href="#cozumlerimiz" class="mobile-link block px-4 py-3 text-gray-800 font-semibold hover:bg-gray-50 hover:text-brand rounded-lg">Tüm Çözümler</a>
-                <a href="#iletisim" class="mobile-link block px-4 py-3 text-gray-800 font-semibold hover:bg-gray-50 hover:text-brand rounded-lg">İletişim</a>
                 <a href="#hakkimizda" class="mobile-link block px-4 py-3 text-gray-800 font-semibold hover:bg-gray-50 hover:text-brand rounded-lg">Hakkımızda</a>
-                <div class="pt-2 flex flex-col gap-2">
-                    <a href="tel:+905308244301" class="mobile-link block px-4 py-3 bg-brand text-white text-center font-bold rounded-lg shadow-md">
-                        <i class="fas fa-phone-alt mr-2"></i> 0530 824 43 01 (Ara)
-                    </a>
-                    <a href="https://wa.me/905308244301?text=Merhaba,%20bilgi%20almak%20istiyorum." target="_blank" class="mobile-link block px-4 py-3 bg-whatsapp text-white text-center font-bold rounded-lg shadow-md">
-                        <i class="fab fa-whatsapp mr-2 text-lg"></i> WhatsApp İletişim
-                    </a>
-                </div>
+                <a href="#iletisim" class="mobile-link block px-4 py-3 text-gray-800 font-semibold hover:bg-gray-50 hover:text-brand rounded-lg">İletişim</a>
             </div>
         </div>
     </nav>
@@ -441,7 +414,7 @@
             </div>
         </section>
 
-        <!-- İletişim CTA (Mail butonu geri eklendi) -->
+        <!-- İletişim CTA -->
         <section id="iletisim" class="py-24 bg-brand relative overflow-hidden">
             <div class="absolute inset-0 opacity-10">
                 <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -472,13 +445,18 @@
         </section>
     </main>
 
-    <!-- Footer (Hızlı Erişim sırası header ile aynı, Google Maps eklendi) -->
+    <!-- FOOTER ÜSTÜ TAM EKRAN DİNAMİK HARİTA -->
+    <section class="w-full h-[450px] relative z-10">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.298197771746!2d28.9918!3d41.0658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab74a7a8d0001%3A0x1!2zTWVjaWRpeWVrw7bFdiwgMS4gxLBzbWFpbCBUYXJ0YW4gU2suIE5vOjE4LCDFnmnFn2xpL8Swc3RhbmJ1bA!5e0!3m2!1str!2str!4v1650000000000!5m2!1str!2str" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Footer -->
     <footer class="bg-dark text-gray-400 py-16 border-t-4 border-brand">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
                 
                 <!-- Logo & Hakkında -->
-                <div class="md:col-span-4">
+                <div class="md:col-span-5">
                     <div class="bg-white inline-block p-3 rounded-lg mb-6">
                         <img src="ligaya-logo.png" alt="Ligaya Teknoloji ve Tic. Ltd. Şti." class="h-12 w-auto object-contain" onerror="this.src='https://placehold.co/150x48/FFF/00807B?text=Ligaya+Teknoloji'">
                     </div>
@@ -501,10 +479,10 @@
                     </ul>
                 </div>
 
-                <!-- İletişim Adres & Bilgileri ve Google Maps -->
-                <div class="md:col-span-5">
-                    <h4 class="text-white font-bold mb-6 font-heading text-lg">İletişim Bilgileri & Konum</h4>
-                    <ul class="space-y-4 mb-6">
+                <!-- İletişim Bilgileri -->
+                <div class="md:col-span-4">
+                    <h4 class="text-white font-bold mb-6 font-heading text-lg">İletişim Bilgileri</h4>
+                    <ul class="space-y-4">
                         <li class="flex items-start gap-4">
                             <div class="w-10 h-10 rounded bg-gray-800 flex items-center justify-center text-brand flex-shrink-0"><i class="fas fa-map-marker-alt"></i></div>
                             <address class="mt-1 text-sm not-italic leading-relaxed text-gray-300">
@@ -530,11 +508,6 @@
                             <a href="mailto:ligayateknoloji@gmail.com" class="hover:text-white transition-colors text-sm -mt-4">ligayateknoloji@gmail.com</a>
                         </li>
                     </ul>
-
-                    <!-- Google Maps Embed Harita -->
-                    <div class="rounded-xl overflow-hidden border border-gray-700 shadow-lg">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.298197771746!2d28.9918!3d41.0658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab74a7a8d0001%3A0x1!2zTWVjaWRpeWVrw7bFdiwgMS4gxLBzbWFpbCBUYXJ0YW4gU2suIE5vOjE4LCDFnmnFn2xpL8Swc3RhbmJ1bA!5e0!3m2!1str!2str!4v1650000000000!5m2!1str!2str" width="100%" height="160" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
                 </div>
             </div>
             
